@@ -7,7 +7,7 @@ import scipy.integrate as integrate
 import pandas as pd
 from scipy.optimize import minimize
 #Iterations for each nucleus. Corresponds to accuracy of Cv graph. Minimum of 5, suggested number ~50.
-N =5
+N =50
 #Number of nulcei simulated. Up to 194.
 numberelements= 19
 data = pd.read_csv('20.csv')
